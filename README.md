@@ -73,5 +73,5 @@ Under construction.
 
 ## Enclosure Design
 Under construction.
-## Final Product and Closing 
+## Final Product and Closing Thoughts
 Under construction.
