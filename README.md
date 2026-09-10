@@ -2,16 +2,16 @@
 I've been interested in analog electronics and electronic instruments for a decent chunk of my time in college so I wanted to try my hand at creating an [audio mixer](https://youtu.be/q8tmUgaXrEQ?si=oKsCojngbPTezQQb&t=1473) using a design I found online. This will be the first part of a bigger project where I hope to make a few different analog synthesizer modules and use the mixer to, well, mix them together. :)
 
 ### Table of Contents
-1. [Initial Simulations](https://github.com/Jumpin-Josh/AudioMixer/blob/main/README.md#initial-simulations)
-   - Audio Mixer
+1. Initial Simulations
+   - [Audio Mixer](https://github.com/Jumpin-Josh/AudioMixer-and-Modules/blob/main/README.md#audio-mixer)
    - [Wave Folder](https://github.com/Jumpin-Josh/AudioMixer/blob/main/README.md#module-1-double-wave-folder)
    - [Distortion Module](https://github.com/Jumpin-Josh/AudioMixer/blob/main/README.md#module-2-distortion)
    - [Voltage Controlled Filter (VCF)](https://github.com/Jumpin-Josh/AudioMixer/blob/main/README.md#module-3-vcf)
-2. [Breadboard Prototyping](https://github.com/Jumpin-Josh/AudioMixer/blob/main/README.md#breadboard-prototyping)
-   - Audio Mixer
-   - [Wave Folder]()
-   - [Distortion Module]()
-   - [VCF]()
+2. Breadboard Prototyping
+   - [Audio Mixer](https://github.com/Jumpin-Josh/AudioMixer-and-Modules/blob/main/README.md#audio-mixer-1)
+   - [Wave Folder](https://github.com/Jumpin-Josh/AudioMixer-and-Modules#wave-folder-1)
+   - [Distortion Module](https://github.com/Jumpin-Josh/AudioMixer-and-Modules#distortion-1)
+   - [VCF](https://github.com/Jumpin-Josh/AudioMixer-and-Modules#vcf-1)
 3. [PCB Design and Circuit Assembly](https://github.com/Jumpin-Josh/AudioMixer/blob/main/README.md#pcb-design-and-circuit-assembly)
 4. [Enclosure Design](https://github.com/Jumpin-Josh/AudioMixer/blob/main/README.md#enclosure-design)
 5. [Final Product and Closing Thoughts](https://github.com/Jumpin-Josh/AudioMixer/blob/main/README.md#final-product-and-closing-thoughts)
@@ -70,5 +70,9 @@ The workstation has an in built oscillator that can be adjusted from just before
 ### VCF
 
 ## PCB Design and Circuit Assembly
+Under construction.
+
 ## Enclosure Design
-## Final Product and Closing Thoughts
+Under construction.
+## Final Product and Closing 
+Under construction.
