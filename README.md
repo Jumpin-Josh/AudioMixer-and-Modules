@@ -4,9 +4,9 @@ I've been interested in analog electronics and electronic instruments for a dece
 ### Table of Contents
 1. Initial Simulations
    - [Audio Mixer](https://github.com/Jumpin-Josh/AudioMixer-and-Modules/blob/main/README.md#audio-mixer)
-   - [Wave Folder](https://github.com/Jumpin-Josh/AudioMixer/blob/main/README.md#module-1-double-wave-folder)
-   - [Distortion Module](https://github.com/Jumpin-Josh/AudioMixer/blob/main/README.md#module-2-distortion)
-   - [Voltage Controlled Filter (VCF)](https://github.com/Jumpin-Josh/AudioMixer/blob/main/README.md#module-3-vcf)
+   - [Wave Folder](https://github.com/Jumpin-Josh/AudioMixer-and-Modules/blob/main/README.md#wave-folder)
+   - [Distortion Module](https://github.com/Jumpin-Josh/AudioMixer-and-Modules/blob/main/README.md#distortion)
+   - [Voltage Controlled Filter (VCF)](https://github.com/Jumpin-Josh/AudioMixer-and-Modules/blob/main/README.md#vcf)
 2. Breadboard Prototyping
    - [Audio Mixer](https://github.com/Jumpin-Josh/AudioMixer-and-Modules/blob/main/README.md#audio-mixer-1)
    - [Wave Folder](https://github.com/Jumpin-Josh/AudioMixer-and-Modules#wave-folder-1)
@@ -36,7 +36,6 @@ Simulation of the output signal with no, half, and max clipping.
 ### Wave Folder
 ### Distortion
 ### VCF
----------------------------------------------------------------------------------------------------------------------------------------------------
 ## Breadboard Prototyping
 Not as edible as they sound.
 ### Audio Mixer
