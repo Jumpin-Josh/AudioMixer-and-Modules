@@ -3,14 +3,18 @@ I've been interested in analog electronics and electronic instruments for a dece
 
 ### Table of Contents
 1. [Initial Simulations](https://github.com/Jumpin-Josh/AudioMixer/blob/main/README.md#initial-simulations)
-   - Mixer
+   - Audio Mixer
    - Module 1: [Wave Folder](https://github.com/Jumpin-Josh/AudioMixer/blob/main/README.md#module-1-double-wave-folder)
-   - Module 2: [Distortion](https://github.com/Jumpin-Josh/AudioMixer/blob/main/README.md#module-2-distortion)
+   - Module 2: [Distortion Module](https://github.com/Jumpin-Josh/AudioMixer/blob/main/README.md#module-2-distortion)
    - Module 3: [Voltage Controlled Filter (VCF)](https://github.com/Jumpin-Josh/AudioMixer/blob/main/README.md#module-3-vcf)
-3. [Breadboard Prototyping](https://github.com/Jumpin-Josh/AudioMixer/blob/main/README.md#breadboard-prototyping)
-4. [PCB Design and Circuit Assembly](https://github.com/Jumpin-Josh/AudioMixer/blob/main/README.md#pcb-design-and-circuit-assembly)
-5. [Enclosure Design](https://github.com/Jumpin-Josh/AudioMixer/blob/main/README.md#enclosure-design)
-6. [Final Product and Closing Thoughts](https://github.com/Jumpin-Josh/AudioMixer/blob/main/README.md#final-product-and-closing-thoughts)
+2. [Breadboard Prototyping](https://github.com/Jumpin-Josh/AudioMixer/blob/main/README.md#breadboard-prototyping)
+   - Audio Mixer
+   - Module 1: [Wave Folder]()
+   - Module 2: [Distortion Module]()
+   - Module 3: [VCF]()
+3. [PCB Design and Circuit Assembly](https://github.com/Jumpin-Josh/AudioMixer/blob/main/README.md#pcb-design-and-circuit-assembly)
+4. [Enclosure Design](https://github.com/Jumpin-Josh/AudioMixer/blob/main/README.md#enclosure-design)
+5. [Final Product and Closing Thoughts](https://github.com/Jumpin-Josh/AudioMixer/blob/main/README.md#final-product-and-closing-thoughts)
 
 ## Initial Simulations
 Cause who doesn't enjoy a little circuit simulation? It's the LT*Spice* of life!
@@ -30,8 +34,11 @@ Note the signal has some clipping as it reaches the supply voltages even though 
 Simulation of the output signal with no, half, and max clipping.
 
 ### Module 1: Wave Folder
+Under Construction.
 ### Module 2: Distortion
+Under Construction.
 ### Module 3: VCF
+Under Construction.
 ---------------------------------------------------------------------------------------------------------------------------------------------------
 ## Breadboard Prototyping
 Not as edible as they sound.
@@ -39,7 +46,7 @@ Not as edible as they sound.
 ![alt text](https://github.com/Jumpin-Josh/AudioMixer/blob/main/pictures/1_MixerPic.jpg "Inital Breadboard Layout")
 The [workstation](https://www.ericasynths.lv/edu-diy-labor/) i'm using lets me set up jack sockets, potentiometers, switches and buttons off the breadboard so I have more space. It also has a module that can act as an osiloscope, lissajous curve plotter, spectrum analyzer, voltmeter and even tuner.
 
-I cut out the three seperate outputs for now to simplify the wiring. I also swapped out the feedback resistor in the second amplifier for a 1M resistor so it has a gain of 10. Paired with the 250k potentiometer I put in place of the 20k, the mixer will always output a signal that can be distorted now.
+I cut out the three seperate outputs for now to simplify the wiring. I also swapped out the feedback resistor in the second amplifier for a 1M resistor so it has a gain of 10. Paired with the 250k potentiometer I put in place of the 20k, the mixer will always output a signal that can be distorted.
 
 ### Wave Analysis
 Here are some highlights from my wave anylsis.
@@ -53,15 +60,14 @@ Unclipped
 Clipped
 ![alt text](https://github.com/Jumpin-Josh/AudioMixer/blob/main/pictures/4_ClippedSaw.jpg "Clipped sawtooth")
 
-By lowering the cutoff frequency of the low-pass filter I can shape the sawtooth into a sine wave
+By lowering the cutoff frequency of the synth's low-pass filter I can shape the sawtooth into a sine wave.
 ![alt text](https://github.com/Jumpin-Josh/AudioMixer/blob/main/pictures/5_Sine.jpg "Sine wave")
 
 And when clipped it resembles a square wave.
 ![alt text](https://github.com/Jumpin-Josh/AudioMixer/blob/main/pictures/6_ClippedSine.jpg "Clipped sine")
 
-The workstation has an in built oscilator that can be adjusted from just before the upper limit of human hearing to well below it. I did some additional testing using the oscilator as an LFO and mixing it with the output of the synthesizer and found that it caused the synth's signal to sit on top of the lower freqeuncy the same way a boat would sit atop a wave.
+The workstation has an in built oscillator that can be adjusted from just before the upper limit of human hearing to well below it. I did some additional testing using the oscillator as an LFO and mixing it with the output of the synthesizer and found that it caused the synth's signal to sit on top of the lower frequency the same way a boat would sit atop an ocean wave.
 
-As I finished building this mixer I found myself wanting to fit as many more modules as possible on the workstation so it could act as an analog synth module instead of just a mixer. 
 
 ## PCB Design and Circuit Assembly
 ## Enclosure Design
