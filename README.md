@@ -4,21 +4,21 @@ I've been interested in analog electronics and electronic instruments for a dece
 ### Table of Contents
 1. [Initial Simulations](https://github.com/Jumpin-Josh/AudioMixer/blob/main/README.md#initial-simulations)
    - Audio Mixer
-   - Module 1: [Wave Folder](https://github.com/Jumpin-Josh/AudioMixer/blob/main/README.md#module-1-double-wave-folder)
-   - Module 2: [Distortion Module](https://github.com/Jumpin-Josh/AudioMixer/blob/main/README.md#module-2-distortion)
-   - Module 3: [Voltage Controlled Filter (VCF)](https://github.com/Jumpin-Josh/AudioMixer/blob/main/README.md#module-3-vcf)
+   - [Wave Folder](https://github.com/Jumpin-Josh/AudioMixer/blob/main/README.md#module-1-double-wave-folder)
+   - [Distortion Module](https://github.com/Jumpin-Josh/AudioMixer/blob/main/README.md#module-2-distortion)
+   - [Voltage Controlled Filter (VCF)](https://github.com/Jumpin-Josh/AudioMixer/blob/main/README.md#module-3-vcf)
 2. [Breadboard Prototyping](https://github.com/Jumpin-Josh/AudioMixer/blob/main/README.md#breadboard-prototyping)
    - Audio Mixer
-   - Module 1: [Wave Folder]()
-   - Module 2: [Distortion Module]()
-   - Module 3: [VCF]()
+   - [Wave Folder]()
+   - [Distortion Module]()
+   - [VCF]()
 3. [PCB Design and Circuit Assembly](https://github.com/Jumpin-Josh/AudioMixer/blob/main/README.md#pcb-design-and-circuit-assembly)
 4. [Enclosure Design](https://github.com/Jumpin-Josh/AudioMixer/blob/main/README.md#enclosure-design)
 5. [Final Product and Closing Thoughts](https://github.com/Jumpin-Josh/AudioMixer/blob/main/README.md#final-product-and-closing-thoughts)
 
 ## Initial Simulations
 Cause who doesn't enjoy a little circuit simulation? It's the LT*Spice* of life!
-### Audio Mixer Design
+### Audio Mixer
 ![alt text](https://github.com/Jumpin-Josh/AudioMixer/blob/main/simulations/Mixer%20Circuit.png "Initial Mixer Design in LTSpice")
 All three of the 100k potentiometers are setup like voltage dividers allowing each input to be attenuated independently. The inputs are tied together and fed into two inverting buffers<sup>1</sup> to boost the resulting signal since the input pots may reduce the amplitude. The 20k potentiometer is used to tune the clipping on the mixer's output which is then fed into a non-inverting buffer. The .step directive is used to sweep through multiple potentiometer values to see how it will affect the signal.
 
@@ -33,16 +33,13 @@ Note the signal has some clipping as it reaches the supply voltages even though 
 ![alt text](https://github.com/Jumpin-Josh/AudioMixer/blob/main/simulations/Mixer%20Waveforms%203.png "Sweep of the cliping potentiometers")
 Simulation of the output signal with no, half, and max clipping.
 
-### Module 1: Wave Folder
-Under Construction.
-### Module 2: Distortion
-Under Construction.
-### Module 3: VCF
-Under Construction.
+### Wave Folder
+### Distortion
+### VCF
 ---------------------------------------------------------------------------------------------------------------------------------------------------
 ## Breadboard Prototyping
 Not as edible as they sound.
-### Breadboard Design
+### Audio Mixer
 ![alt text](https://github.com/Jumpin-Josh/AudioMixer/blob/main/pictures/1_MixerPic.jpg "Inital Breadboard Layout")
 The [workstation](https://www.ericasynths.lv/edu-diy-labor/) i'm using lets me set up jack sockets, potentiometers, switches and buttons off the breadboard so I have more space. It also has a module that can act as an osiloscope, lissajous curve plotter, spectrum analyzer, voltmeter and even tuner.
 
@@ -68,6 +65,9 @@ And when clipped it resembles a square wave.
 
 The workstation has an in built oscillator that can be adjusted from just before the upper limit of human hearing to well below it. I did some additional testing using the oscillator as an LFO and mixing it with the output of the synthesizer and found that it caused the synth's signal to sit on top of the lower frequency the same way a boat would sit atop an ocean wave.
 
+### Wave Folder
+### Distortion
+### VCF
 
 ## PCB Design and Circuit Assembly
 ## Enclosure Design
